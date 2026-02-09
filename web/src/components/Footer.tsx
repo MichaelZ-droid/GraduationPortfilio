@@ -46,7 +46,6 @@ function SocialItem({ social }: { social: SocialLink }) {
 
   return (
     <div className="relative group">
-        {/* @ts-expect-error - dynamic component type */}
       <Wrapper
         {...props}
         className="block text-zinc-500 hover:text-white transition-colors p-2 relative"

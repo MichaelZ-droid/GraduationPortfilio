@@ -29,7 +29,6 @@ export interface PortfolioData {
   learningReviews: {
     title: string;
     content: string; // Can be markdown or plain text
-    date: string;
   }[];
   socials: SocialLink[];
 }
@@ -107,7 +106,6 @@ export const portfolioData: PortfolioData = {
   learningReviews: [
     {
       title: "VibeCoding 实战复盘：从踩坑到思维重塑",
-      date: "",
       content: `### 每个人都有各自的“坑”，多踩坑才能多成长
 - 听课的内容永远只是理论，动手实践时的门槛往往远超预期。从部署网页到打通 GitHub 与 Vercel，每一步都充满挑战。
 - 这些报错和挫折让我深刻体会到“眼会手不会”的差距，也正是这些坑构成了成长的阶梯。

@@ -25,7 +25,6 @@ export function Learning({ data }: { data: PortfolioData["learningReviews"] }) {
             >
               <div className="flex justify-between items-start mb-4">
                   <h3 className="text-xl font-bold text-indigo-200">{review.title}</h3>
-                  {review.date && <span className="text-sm text-zinc-500 font-mono">{review.date}</span>}
               </div>
               <div className="space-y-4">
                 {review.content.split('\n').map((line, i) => {
